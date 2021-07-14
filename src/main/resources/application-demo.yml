@@ -1,4 +1,4 @@
-spring:
+﻿spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/bilibili_cnki?useUnicode=true&character_set_server=utf8mb4
@@ -46,6 +46,6 @@ application:
 
 secure:
   key: 123456
-
+  expire: 604800
 swagger:
   enabled: false
